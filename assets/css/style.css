@@ -1,0 +1,50 @@
+*, *::after, *::before {
+    box-sizing: border-box;
+  }
+
+body {
+    font-family: 'Arial', "Helvetica Neue", Arial, Helvetica, sans-serif;
+    background-image: url(../images/pink_rice.png);
+   }
+
+.container {
+    background-color: #ffffff;
+    width: 960px;
+    font-family: 'Arial', "Helvetica Neue", Arial, Helvetica, sans-serif;
+    margin-top: 40px;
+    margin-left: 130px;
+    margin-bottom: 1px;
+}
+
+header {
+    background-color: #ffffff;
+    border: 1px solid #cccccc;   
+    margin-top: -10px;
+    margin-left: -10px;
+    margin-right: -10px;
+    margin-bottom: 20px;
+}
+
+h1 {
+    background-color: #4aaaa5;
+    text-align: center;
+    width: 280px;
+    height: 60px;    
+    padding: 15px;
+    margin-left: 130px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #ffffff;
+    font-size: 20px;
+}    
+
+li {
+    display: inline;
+    color: #cccccc;
+
+}
