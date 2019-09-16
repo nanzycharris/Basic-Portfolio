@@ -16,6 +16,7 @@ body {
     margin-left: 130px;
     margin-bottom: 1px;
     border: #dddddd 1px solid;
+    color: #777777;
 }
 
 .navbar {
@@ -150,3 +151,46 @@ footer {
     margin-top: 25px;
     padding-top: 30px;
 }
+
+.row {
+    width: 100%;
+    margin-left: 25px;
+    margin-bottom: 10px;
+    font-size: 16.5px;    
+}
+
+.col-75 {
+    margin-top: 6px;
+    margin-left: 25px;
+}
+
+input[type=text], select, textarea {
+    width: 900px;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+  }
+
+  .col-message {
+    margin-top: 6px;
+    margin-left: 0px;
+  }
+
+  input[type=submit] {
+    background-color: #4aaaa5;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 1px;
+    cursor: pointer;
+    margin-left: 25px;
+    margin-bottom: 15px;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #4aaaa5;
+  }
