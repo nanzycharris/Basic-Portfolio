@@ -118,6 +118,7 @@ h2 {
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
+/* About starts here */
 img {
     margin-left: 25px;
     border: solid 1px #cccccc;
@@ -204,27 +205,23 @@ input[type=text], select, textarea {
     margin-right: -10px;
 }
 
-/* Add padding BETWEEN each column (if you want) */
 .row2,
 .row2 > .column {
     padding: 1px;
 }
 
-/* Create four equal columns that floats next to each other */
 .column {
     float: left;
     width: 35%;
     margin-right: 15px;
 }
 
-/* Clear floats after rows */
 .row2:after {
     content: "";
     display: table;
     clear: both;
 }
 
-/* Content */
 .content {
     background-color: white;
     padding: 10px;
